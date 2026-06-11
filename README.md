@@ -7,7 +7,7 @@ Only the epoched EEG data will be used. It can be found on OpenNeuro. OpenNeuro 
 Current workflow:
 1.  Plot evoked objects and topomaps
 2.  Plot global field power
-3.  Average natural object classes across channels with occipital ROIs
+3.  Average natural object classes across channels with ROIs
 4.  Compare between classes
 5.  Compute grand average across subjects
 6.  Extract latency and amplitude
