@@ -9,7 +9,7 @@ Individuals watch 4000 images of natural objects and their stimulus response (an
 Jupyter notebook contains analysis and figures.
 
 # Research question
-Do individuals exhibit different neural activation patterns to different classes of objects?
+Do individuals exhibit different neural activation patterns (N170 component) to different classes of objects?
 
 # Methods
 | |Natural Object Dataset|
@@ -36,11 +36,9 @@ Do individuals exhibit different neural activation patterns to different classes
 1.  Plot evoked objects and topomaps
 2.  Plot global field power
 3.  Average across channels with ROIs
-4.  Compare between classes
+4.  Compare between animate and inanimate conditions
 5.  Compute grand average across subjects
-6.  Extract latency and amplitude
-7.  Calculate PSD
-8.  Time-frequency analysis
+6.  Extract mean amplitudes
 
 # References
 Larson, E., Gramfort, A., Engemann, D. A., Leppakangas, J., Brodbeck, C., Jas, M., Brooks, T. L., Sassenhagen, J., McCloy, D., Luessi, M., King, J.-R., Höchenberger, R., Brunner, C., Goj, R., Favelier, G., van Vliet, M., Wronkiewicz, M., Appelhoff, S., Rockhill, A., … user27182. (2026). MNE-Python (v1.12.1). Zenodo. https://doi.org/10.5281/zenodo.19666955
