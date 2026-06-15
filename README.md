@@ -41,6 +41,12 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 6.  Extract mean amplitudes
 
 # References
+Eimer, M. (2012). The Face-Sensitive N170 Component of the Event-Related Brain Potential. In A. J. Calder, G. Rhodes, M. H. Johnson, & J. V. Haxby (Eds.), Oxford Handbook of Face Perception. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199559053.013.0017
+
+Gao, C., Conte, S., Richards, J. E., Xie, W., & Hanayik, T. (2019). The neural sources of N170: Understanding timing of activation in face-selective areas. Psychophysiology, 56(6), e13336. https://doi.org/10.1111/psyp.13336
+
 Larson, E., Gramfort, A., Engemann, D. A., Leppakangas, J., Brodbeck, C., Jas, M., Brooks, T. L., Sassenhagen, J., McCloy, D., Luessi, M., King, J.-R., Höchenberger, R., Brunner, C., Goj, R., Favelier, G., van Vliet, M., Wronkiewicz, M., Appelhoff, S., Rockhill, A., … user27182. (2026). MNE-Python (v1.12.1). Zenodo. https://doi.org/10.5281/zenodo.19666955
+
+Rossion, B., & Jacques, C. (2011). The N170: Understanding the Time Course of Face Perception in the Human Brain. In E. S. Kappenman & S. J. Luck (Eds.), The Oxford Handbook of Event-Related Potential Components. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780195374148.013.0064
 
 Zhang, G., Zhou, M., Zhen, S. et al. A large-scale MEG and EEG dataset for object recognition in naturalistic scenes. Sci Data 12, 857 (2025). https://doi.org/10.1038/s41597-025-05174-7
