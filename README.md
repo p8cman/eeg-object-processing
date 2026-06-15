@@ -47,6 +47,8 @@ Gao, C., Conte, S., Richards, J. E., Xie, W., & Hanayik, T. (2019). The neural s
 
 Larson, E., Gramfort, A., Engemann, D. A., Leppakangas, J., Brodbeck, C., Jas, M., Brooks, T. L., Sassenhagen, J., McCloy, D., Luessi, M., King, J.-R., Höchenberger, R., Brunner, C., Goj, R., Favelier, G., van Vliet, M., Wronkiewicz, M., Appelhoff, S., Rockhill, A., … user27182. (2026). MNE-Python (v1.12.1). Zenodo. https://doi.org/10.5281/zenodo.19666955
 
+Luck, S. J. (2014). An introduction to the event-related potential technique, second edition. MIT Press.
+
 Rossion, B., & Jacques, C. (2011). The N170: Understanding the Time Course of Face Perception in the Human Brain. In E. S. Kappenman & S. J. Luck (Eds.), The Oxford Handbook of Event-Related Potential Components. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780195374148.013.0064
 
 Wang, Y., Huang, H., Yang, H., Xu, J., Mo, S., Lai, H., Wu, T., & Zhang, J. (2019). Influence of EEG References on N170 Component in Human Facial Recognition. Frontiers in Neuroscience, 13, 705. https://doi.org/10.3389/fnins.2019.00705
