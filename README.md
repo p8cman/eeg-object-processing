@@ -1,12 +1,8 @@
 # Project overview
-This project is based on this paper:
-Zhang, G., Zhou, M., Zhen, S. et al. A large-scale MEG and EEG dataset for object recognition in naturalistic scenes. Sci Data 12, 857 (2025). https://doi.org/10.1038/s41597-025-05174-7
+This repository is used for a NTU course module - HP7217: APPLIED FUNCTIONAL NEUROSCIENCE. A large-scale EEG dataset in naturalistic scenes was used to study for object recognition. Data preprocessing was done by the authors of the dataset so only the epoched EEG data was used. OpenNeuro Accession Number: ds005811. It can be found on: https://openneuro.org/datasets/ds005811/versions/1.0.9
 
-Only the epoched EEG data will be used. OpenNeuro Accession Number: ds005811.
-It can be found on: https://openneuro.org/datasets/ds005811/versions/1.0.9
-
-Individuals watch 4000 images of natural objects and their stimulus response (animate vs inanimate) is collected.
-Jupyter notebook contains analysis and figures.
+That being said, I aim to conduct my own data preprocessing to have a feel of the data cleaning process and update with a Jupyter notebook here. For this dataset, individuals had to watch 2000-4000 images of natural objects and their stimulus response (animate vs inanimate) was collected.
+The current Object_preprocessing Jupyter notebook contains data analyses, results and figures.
 
 # Research question
 Do individuals exhibit different neural activation patterns (N170 component) to different classes of objects?
@@ -32,13 +28,25 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 5. ICA artifact rejection. Each run of EEG data was first filtered within the 1–100 Hz range to reduce the impact of low-frequency drifts and high-frequency noise on the ICA decomposition. The data was then decomposed into different independent components using ICA algorithm, and the artifacts components were identified by combining the automatic artifact selection algorithms (MNE-ICALabel for EEG) and manual inspection. Finally, these artifact components were removed on the 0.1–100 Hz time series through regression.
 6. Epoching. We divided the time window of each trial from −100ms to 800 ms relative to stimulus onset to fully capture the neural response induced by the stimulus. Baseline correction was performed using the time window from 100 ms before onset of the images. Then, all trials for each participant were concatenated to create the participant’s epoch data.
 
-# Current workflow
-1.  Plot evoked objects and topomaps
-2.  Plot global field power
-3.  Average across channels with ROIs
-4.  Compare between animate and inanimate conditions
-5.  Compute grand average across subjects
-6.  Extract mean amplitudes
+# Data analysis
+## One subject
+1.  Understand metadata of first subject (e.g., event markers, object classes)
+2.  Plot epoched data and their conditions (animate vs inanimate)
+3.  Create butterfly plots of all signals and their conditions (animate vs inanimate)
+4.  Plot global field power and their conditions (animate vs inanimate)
+5.  Create scalp topomaps and their conditions (animate vs inanimate)
+6.  Combine butterfly plots and scalp topomaps and their conditions (animate vs inanimate)
+7.  Compare between conditions (animate vs inanimate)
+8.  Average across channels with ROIs
+9.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate)
+10.  Plot global field power of ROI and their conditions (animate vs inanimate)
+11.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate)
+12.  Conduct independent t-test between conditions (animate vs inanimate)
+13.  Compute grand average across all 19 subjects
+14.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate) for all subjects
+15.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate) for all subjects
+16.  Conduct paired t-test between conditions (animate vs inanimate) for all subjects
+17.  Extract mean amplitudes for all subjects
 
 # References
 Eimer, M. (2012). The Face-Sensitive N170 Component of the Event-Related Brain Potential. In A. J. Calder, G. Rhodes, M. H. Johnson, & J. V. Haxby (Eds.), Oxford Handbook of Face Perception. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199559053.013.0017
