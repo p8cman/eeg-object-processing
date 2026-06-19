@@ -33,45 +33,82 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 1.  Understand metadata of first subject (e.g., event markers, object classes)
 2.  Plot epoched data and their conditions (animate vs inanimate)
 3.  Create butterfly plots of all signals and their conditions (animate vs inanimate)
-img width="651" height="311" alt="sub01_all_channels" src="https://github.com/user-attachments/assets/f5dc35ca-e4d8-4cdd-b7d7-fcb47b36741a" /><img width="651" height="311" alt="sub01_all_channels_animate" src="https://github.com/user-attachments/assets/57af33c4-f00c-4c72-85a9-e6a231f32b1b" />
+
+<img width="651" height="311" alt="sub01_all_channels" src="https://github.com/user-attachments/assets/f5dc35ca-e4d8-4cdd-b7d7-fcb47b36741a" />
+
+<img width="651" height="311" alt="sub01_all_channels_animate" src="https://github.com/user-attachments/assets/57af33c4-f00c-4c72-85a9-e6a231f32b1b" />
+
 <img width="651" height="311" alt="sub01_all_channels_inanimate" src="https://github.com/user-attachments/assets/1bed7a33-54ee-4d05-b7c9-243641667cff" />
+
 4.  Plot global field power and their conditions (animate vs inanimate)
-img width="811" height="611" alt="sub01_all_channels_GFP" src="https://github.com/user-attachments/assets/b358031d-be27-4fbb-b980-d524e74645a7" />
+
+<img width="811" height="611" alt="sub01_all_channels_GFP" src="https://github.com/user-attachments/assets/b358031d-be27-4fbb-b980-d524e74645a7" />
+
 5.  Create scalp topomaps and their conditions (animate vs inanimate)
+
 <img width="610" height="167" alt="sub01_all_channels_topomap" src="https://github.com/user-attachments/assets/5a658c70-e375-4d0c-acbd-278370efb674" />
+
 <img width="610" height="171" alt="sub01_all_channels_animate_topomap" src="https://github.com/user-attachments/assets/98a288af-98f3-46ec-8c2d-1192487f55a5" />
+
 <img width="610" height="167" alt="sub01_all_channels_inanimate_topomap" src="https://github.com/user-attachments/assets/f3934ecc-20c4-41d5-a133-5f8ea3027f2b" />
+
 6.  Combine butterfly plots and scalp topomaps and their conditions (animate vs inanimate)
+
 <img width="809" height="431" alt="sub01_all_channels_joint" src="https://github.com/user-attachments/assets/089e7968-c55e-4544-bdd1-c38bdddc681f" />
+
 <img width="809" height="431" alt="sub01_all_channels_animate_joint" src="https://github.com/user-attachments/assets/cbb5e264-e83f-47eb-afc5-506f7090a9ba" />
+
 <img width="809" height="431" alt="sub01_all_channels_inanimate_joint" src="https://github.com/user-attachments/assets/55a1d27b-1ef8-49aa-872b-60fa1abad175" />
+
 7.  Compare difference between conditions (animate vs inanimate)
+
 <img width="809" height="431" alt="sub01_animate_inanimate_difference" src="https://github.com/user-attachments/assets/aaea6fa9-44cf-4c56-b45a-c864fa93fbaa" />
+
 8.  Average across channels with ROIs
 9.  Extract mean amplitudes of ROI for first subject = 8.0341 µV
 10.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate)
-img width="651" height="311" alt="sub01_ROI_channels" src="https://github.com/user-attachments/assets/6d528ff4-ca98-4e2d-b645-b18887a34763" />
+
+<img width="651" height="311" alt="sub01_ROI_channels" src="https://github.com/user-attachments/assets/6d528ff4-ca98-4e2d-b645-b18887a34763" />
+
 <img width="651" height="311" alt="sub01_ROI_channels_animate" src="https://github.com/user-attachments/assets/cc3487c9-fc66-4585-8ce1-6e2401f22934" />
+
 <img width="651" height="311" alt="sub01_ROI_channels_inanimate" src="https://github.com/user-attachments/assets/a8927365-dd81-44d2-babc-0b83faf49b07" />
+
 11.  Plot global field power of ROI and their conditions (animate vs inanimate)
+
 <img width="811" height="611" alt="sub01_ROI_channels_GFP" src="https://github.com/user-attachments/assets/2070823f-de9e-435f-9daf-c8b3044b9d58" />
+
 12.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate)
+
 <img width="809" height="431" alt="sub01_ROI_channels_joint" src="https://github.com/user-attachments/assets/472931af-442d-4b6e-8d6d-18acf1d2f83d" />
+
 <img width="809" height="431" alt="sub01_ROI_channels_animate_joint" src="https://github.com/user-attachments/assets/43b2e60a-4417-4cde-a4d6-306c2eb71231" />
+
 <img width="809" height="431" alt="sub01_ROI_channels_inanimate_joint" src="https://github.com/user-attachments/assets/16f4b508-2091-4f1a-b0d3-ee1b1fad0f1a" />
+
 13.  Conduct independent t-test between conditions (animate vs inanimate), t = -0.368, p = 0.7125
+
 ## All subjects
 14.  Compute grand average across all 19 subjects
 15.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate) for all subjects
+
 <img width="651" height="311" alt="all_subs_ROI_channels" src="https://github.com/user-attachments/assets/b65f5d08-c8cc-4200-b8b1-a6857996c302" />
+
 <img width="651" height="311" alt="all_subs_ROI_channels_animate" src="https://github.com/user-attachments/assets/25172446-42cd-46eb-9448-33d429ba7db7" />
+
 <img width="651" height="311" alt="all_subs_ROI_channels_inanimate" src="https://github.com/user-attachments/assets/c70f6b03-281c-49a0-8994-e55c6a29497a" />
+
 16.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate) for all subjects
+
 <img width="809" height="431" alt="all_subs_ROI_channels_joint" src="https://github.com/user-attachments/assets/73a0561d-ff8d-47c0-a1d2-27a1fafefaea" />
+
 <img width="809" height="431" alt="all_subs_ROI_channels_animate_joint" src="https://github.com/user-attachments/assets/6bb86b6a-875d-48e2-ba64-1c3531214e4b" />
+
 <img width="809" height="431" alt="all_subs_ROI_channels_inanimate_joint" src="https://github.com/user-attachments/assets/4a408c07-2923-4ee8-ba7a-1b5d0f59787f" />
+
 17.  Conduct paired t-test between conditions (animate vs inanimate) for all subjects, t = -2.620, p = 0.0174
 18.  Extract mean amplitudes for all subjects
+
 <img width="545" height="372" alt="all_subs_animate_inanimate_difference" src="https://github.com/user-attachments/assets/4bdbccfc-033b-42ab-96e6-f3e3d507c664" />
 
 # References
