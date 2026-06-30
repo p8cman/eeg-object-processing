@@ -86,11 +86,15 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 
 <img width="809" height="431" alt="sub01_ROI_channels_inanimate_joint" src="https://github.com/user-attachments/assets/16f4b508-2091-4f1a-b0d3-ee1b1fad0f1a" />
 
-13.  Conduct independent t-test between conditions (animate vs inanimate), t = -0.368, p = 0.7125
+13.  Compare difference between conditions (animate vs inanimate) of ROI signals
+
+<img width="809" height="431" alt="sub01_ROI_channels_animate_inanimate_difference" src="https://github.com/user-attachments/assets/2b4642e8-a14c-40eb-9c1c-62a8921966ee" />
+
+14.  Conduct independent t-test between conditions (animate vs inanimate), t = -0.368, p = 0.7125
 
 ## All subjects
-14.  Compute grand average across all 19 subjects
-15.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate) for all subjects
+15.  Compute grand average across all 19 subjects
+16.  Create butterfly plots of ROI signals and their conditions (animate vs inanimate) for all subjects
 
 <img width="651" height="311" alt="all_subs_ROI_channels" src="https://github.com/user-attachments/assets/b65f5d08-c8cc-4200-b8b1-a6857996c302" />
 
@@ -98,7 +102,7 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 
 <img width="651" height="311" alt="all_subs_ROI_channels_inanimate" src="https://github.com/user-attachments/assets/c70f6b03-281c-49a0-8994-e55c6a29497a" />
 
-16.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate) for all subjects
+17.  Combine butterfly plots and scalp topomaps of ROI and their conditions (animate vs inanimate) for all subjects
 
 <img width="809" height="431" alt="all_subs_ROI_channels_joint" src="https://github.com/user-attachments/assets/73a0561d-ff8d-47c0-a1d2-27a1fafefaea" />
 
@@ -106,8 +110,12 @@ Do individuals exhibit different neural activation patterns (N170 component) to 
 
 <img width="809" height="431" alt="all_subs_ROI_channels_inanimate_joint" src="https://github.com/user-attachments/assets/4a408c07-2923-4ee8-ba7a-1b5d0f59787f" />
 
-17.  Conduct paired t-test between conditions (animate vs inanimate) for all subjects, t = -2.620, p = 0.0174
-18.  Extract mean amplitudes for all subjects
+18.  Compare difference between conditions (animate vs inanimate) of ROI signals for all subjects
+
+<img width="809" height="431" alt="all_subs_ROI_channels_animate_inanimate_difference" src="https://github.com/user-attachments/assets/97741340-c233-46bf-afe6-4ebeb2a241d2" />
+
+19.  Conduct paired t-test between conditions (animate vs inanimate) for all subjects, t = -2.620, p = 0.0174
+20.  Extract mean amplitudes for all subjects
 
 <img width="545" height="372" alt="all_subs_animate_inanimate_difference" src="https://github.com/user-attachments/assets/4bdbccfc-033b-42ab-96e6-f3e3d507c664" />
 
